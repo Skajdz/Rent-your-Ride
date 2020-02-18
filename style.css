@@ -1,0 +1,991 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(to top, rgb(20, 0, 0), black);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+ul li{
+    list-style-type: none;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+#header{
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.979),red); 
+    width: 100%;
+    background-color: white;
+    height: 115px;
+}
+#logo{
+    margin-top:15px;
+    margin-left:50px;
+    float:left;
+    
+}
+#header-1{
+    width:1340px;
+    margin:0 auto;
+}
+#menu{
+    float:left;
+    height:75px;
+    width:550px;
+    /*background-color: black;*/
+    margin-left:110px;
+    padding-top:20px;
+    margin-right:40px;
+    margin-top:20px;
+    
+}
+#login h1{
+    font-size:30px;
+    margin-top:20px;
+    text-align:center;
+}
+#login h1 a{
+    color:white;
+    font-size:25px;
+}
+#login h1 a:hover{
+    color:black;
+    transition: color 0.3s ease-in;
+}
+#logout{
+    margin-top:10px;
+    text-align:center;
+}
+#logout a{
+    color:red;
+    font-size:20px;
+    padding:7px;
+}
+#logout a:hover{
+    color:white;
+    transition: color 0.3s ease-in;
+}
+#registerLink{
+    margin-top:17px;
+    margin-left:20px;
+}
+#registerLink a{
+    font-size:15px;
+    color:white;
+    padding:7px;
+}
+#registerLink a:hover{
+    padding:7px;
+    background-color:black;
+    transition: background-color 0.3s ease-in;
+}
+#logo-png{
+    float:left;
+}
+#logo-png img{
+    width:100px;
+}
+#logo-text{
+    float:right;
+    margin-top:17px;
+    margin-left:25px;
+}
+#logo-text p{
+    font-size: 30px;
+    font-family: "Helvetica";
+    color:black;
+    font-weight: 900;
+    font-style: italic;
+    
+}
+#menu ul li{
+    display:inline;
+    margin-left:20px;
+    
+    
+}
+#menu ul li a{
+    font-size: 30px;
+    color:black;
+    font-family: "Helvetica";
+    font-weight:700;
+}
+#menu ul li a:hover{
+    color:white;
+    transition:color 0.3s ease-in;
+}
+#login{
+   padding-top:5px;
+}
+#login input{
+    margin-top:10px;
+    height:30px;
+    width:100px;
+}
+#login-div #loginBtn{
+  background-color: #000000; 
+  border: 2px solid black;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#loginBtn{
+    margin-top:10px;
+    height:35px;
+    margin-left:15px;
+}
+.cleaner{
+    clear:both;
+}
+#holder{
+    
+    height:500px;
+    width:100%;
+    background-image: url("Slike/slika1.jpg");
+    background-position:center;
+    background-size:100% 650px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   padding-top:200px;
+}
+
+
+#banner-1 h1{
+    color:rgb(165, 4, 4);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:10px;
+    text-align:center;
+    font-size:35px;
+}
+#comodities{
+    height:220px;
+    padding-top:30px;
+    width:400px;
+    margin:0 auto;
+    background-color:rgba(0, 0, 0, 0.719);
+    border-radius: 60%;
+    text-align:center;
+
+}
+#comodities h2{
+    
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(121, 121, 121, 0.863);
+    
+}
+#comodities ul li{
+    color:rgba(255, 255, 255, 0.603);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size:20px;
+    margin-top:10px;
+    list-style:none;
+}
+#banner-2-holder{
+    width:100%;
+    background-color:#1f1f1f;
+}
+#banner-2{
+    border-top:1px solid rgba(128, 128, 128, 0.658);
+    border-bottom:1px solid rgba(128, 128, 128, 0.658);
+    padding-top:30px;
+    height:150px;
+    text-align:justify;
+    width:800px;
+    margin:0 auto;
+    font-family: helvetica;
+    color:rgba(255, 255, 255, 0.589);
+    
+}
+#banner-2 h3{
+    margin-bottom:20px;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(255, 255, 255, 0.603);
+}
+.red{
+    color:red;
+    font-weight:bold;
+    font-style:italic;
+}
+#discounts{
+    width:1330px;
+    text-align:center;
+    margin:0 auto;
+    margin-top:30px;
+}
+#discounts h4{
+    margin-bottom:75px;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(136, 2, 2, 0.884);
+    font-family: helvetica;
+}
+.discount-vehicle{
+    width:300px;
+    display:inline-block;
+    height:435px; 
+    vertical-align: top;
+    position: relative;
+    padding:10px;
+}
+.discount-vehicle h5{
+    font-size:20px;
+    font-weight:bold;
+    color:#520000;
+    font-family: helvetica;
+    margin:15px 0 20px 0;
+}
+.discount-vehicle p{
+    margin:10px 0 15px 10px;
+    font-size:17px;
+    color:grey;
+    text-align:justify;
+}
+.bot a{
+    left:70px;
+    position: absolute;
+    bottom: 15px;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    border:2px solid rgb(180, 0, 0);
+    background-color: rgb(180, 0, 0);
+    color:white;
+}
+.bot a:hover{
+    background-color:black;
+    border:2px solid white;
+    color:white;
+    transition: background-color 0.3s ease-out;
+}
+.img-holder{
+    width:201px;
+    margin:0 auto;
+}
+.img-holder img{
+    width:200px;
+    height:150px;
+    border-radius: 50%;
+}
+#catalog{
+    width:100%;
+    margin-top:50px;
+    text-align: center;
+}
+#catalog h4{
+    margin-bottom:75px;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    color:#640000;
+    font-family: helvetica;
+}
+.catalog-vehicle{
+    width:300px;
+    display:inline-block;
+    height:385px; 
+    vertical-align: top;
+    position: relative;
+    padding:10px;
+}
+.catalog-img-holder{
+    border-top:0.5px solid #4d4c4c;
+    border-right:0.5px solid #4d4c4c;
+    
+}
+.catalog-img-holder img{
+    height:200px;
+    width:250px;
+    border-radius:50%;
+}
+.catalog-price-holder p{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:19px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.catalog-car-name{
+    color:grey;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top:15px;
+}
+.catalog-reservation a{
+    position: absolute;
+    bottom:15px;
+    left:50px;
+    padding:10px;
+    background-color:rgb(180, 0, 0);
+    color:white;
+    border:2px solid rgb(180, 0, 0);
+    font-size:20px;
+}
+.catalog-reservation a:hover{
+    background-color:black;
+    color:white;
+    border:2px solid white;
+    transition: background-color 0.3s ease-out;
+}
+
+#banner-3{
+    width:100%;
+    margin-top:70px;
+    background:linear-gradient(to right,red,black); 
+    margin-bottom:100px;
+}
+#banner-3-holder{
+    height:90px;
+    text-align:center;
+    width:800px;
+    margin:0 auto;
+}
+#headline-holder{
+    float:left;
+    color:white;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+#link-holder a{
+    color:white;
+    background-color:rgb(255, 0, 0);
+    padding:10px;
+    font-size:20px;
+    border:2px red solid;
+    
+}
+#link-holder, #headline-holder{
+    margin-top:30px;
+}
+#link-holder{
+    float:right;
+    margin-top:35px;
+}
+#link-holder a:hover{
+    background-color:black;
+    transition: background-color 0.3s ease-out;
+    border:2px white solid;
+}
+#holder-sister-company{
+    height:200px;
+    width:100%;
+    background-image: url("Slike/Space-port.png");
+    color:rgba(204, 204, 0, 0.774);
+    border-top:2px solid rgba(204, 204, 0, 0.774);
+}
+#sister-company{
+    width:900px;
+    margin:0 auto;
+}
+#sister-text-holder{
+    word-wrap: normal;
+    width:500px;
+    float:left;
+    font-size:19px;
+    margin-top:63px;
+}
+#sister-link-holder{
+    float:right;
+    margin-top:90px;
+}
+#sister-link-holder a{
+    color:rgba(204, 204, 0, 0.774);
+    padding:10px;
+    font-size:20px;
+    background-color:black;
+    border:2px solid rgba(204, 204, 0, 0.774);
+}
+#sister-link-holder a:hover{
+    background-color:rgba(204, 204, 0, 0.774);
+    transition:background-color 0.3s ease-out;
+    color:black;
+    
+}
+#footer{
+    height:215px;
+    background-color: rgba(39, 39, 39, 0.884);
+    width:100%;
+    padding-top:2px;
+    text-align:center;
+}
+#footer-center{
+    width:900px;
+    height:190px;
+    margin:0 auto;
+    text-align:center;
+}
+#footer-p{
+    color:rgba(255, 255, 255, 0.753);
+    margin-top:20px;
+}
+#author-holder{
+    margin-top:15px;
+}
+#author-img img{
+    width:100px;  
+}
+#author-link{
+    margin-top:15px;
+}
+#author-link a{
+    padding:7px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:15px;
+    background-color:black;
+    color:rgba(255, 255, 255, 0.918);
+    font-weight:699;
+    border:2px solid black;
+}
+#author-link a:hover{
+    
+    color:rgb(194, 2, 2);
+    transition: color 0.3s ease-out;
+}
+/*-----------------------------------------------------------Rentable rides----------------------------------------------*/
+#banner-rides{
+    width:100%;
+    height:150px;
+
+    margin-top:20px;
+}
+#rides-header{
+    text-align: center;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#640000da;
+}
+#rides-misc{
+    width:600px;
+    margin:0 auto;
+    padding-top:50px;
+    color:grey;
+}
+#rides-sort select{
+    padding:5px;
+    width:200px;
+    font-size:20px;
+    background-color:black;
+    color:grey;
+}
+#total{
+    margin-right:40px;
+}
+.ride{
+    width:700px;
+    border-bottom:0.5px solid rgba(128, 128, 128, 0.404);
+    height:230px;
+    margin:0 auto;
+    padding:15px;
+    margin-bottom:15px;
+    /*background:linear-gradient(to right,rgb(99, 0, 0),black);*/
+}
+.ride-img img{
+    border-radius:50%;
+    width:250px;
+    height:200px;
+}
+.ride-desc{
+    text-align:center;
+    margin:0 auto;
+    width:370px;
+    margin-right:60px;
+}
+.package-img{
+    border-radius:70%;
+    padding:10px;
+    width:90px;
+    height:65px;
+    margin:0 auto;
+    margin-top:5px;
+    background-color:rgb(136, 135, 135);
+    margin-bottom:5px;
+}
+.package-img img{
+    width:70px;
+}
+.ride-desc h4{
+    color:#640000;
+    font-size:25px;
+    font-weight:700;
+}
+.ride-desc h5{
+    color:grey;
+    font-size:18px;
+    font-weight:200;
+    margin-top:5px;
+}
+.ride-link{
+    margin-top:15px;
+    text-align:center;
+}
+.ride-link a{
+    color:white; 
+    font-size:18px;
+    padding:7px;
+    background-color:rgb(180, 0, 0);
+    text-align:center;
+}
+.ride-link a:hover{
+    color:white;
+    background-color:black;
+    border:2px solid white;
+    transition: background-color 0.3s ease-in;
+}
+.hidden-p{
+    display:none;
+    color:rgb(173, 173, 173);
+}
+/*----------------------------------------------------Ride_Details----------------------------------------------*/
+
+#content-ride{
+    width:100%;
+}
+#ride-banner{
+   padding-top:55px;
+   text-align:center;
+   width:1200px;
+   margin:0 auto;
+   height:340px;
+   border-bottom:0.5px dotted rgba(128, 128, 128, 0.144);
+}
+#ride-img img{
+    width:300px;
+    height:220px;
+    border-radius:50%;
+    margin-top:60px;
+}
+#ride-name{
+    width:500px;
+    text-align: center;
+    margin-right:50px;
+    margin-left:50px;
+    color:grey;
+}
+.justify{
+    text-align:justify;
+}
+#ride-name h1{
+    text-align:center;
+    margin-bottom:55px;
+    color:#640000;
+}
+#ride-name h2{
+    margin-top:15px;
+    margin-bottom:15px;
+    text-align:center;
+    color:#640000;
+}
+#paperwork-d{
+    margin-top:42px;
+}
+#paperwork-d a{
+    padding:10px;
+    background-color:red;
+    border:2px solid red;
+    color:white;
+    font-size:20px;
+}
+#paperwork-d a:hover{
+    background-color:black;
+    border:2px solid white;
+    transition: background-color 0.3s ease-in;
+}
+#ride-prices{
+    margin-top:60px;
+}
+#ride-prices table tr td{
+    border:1px solid grey;
+    margin:0;
+    padding:5px;
+    width:130px;
+    color:white;
+}
+#ride-pw{
+    color:white;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.pw-img img{
+    width:200px;
+    height:150px;
+}
+#right-pw{
+    width:1100px;
+    margin:0 auto;
+    padding-left:73px;
+}
+.pw-img{
+    margin-right:10px;
+    margin-top:10px;
+}
+.old{
+    color:red;
+    text-decoration: line-through;
+}
+/*-------------------------------Paperwork----------------------*/
+#paperwork-content{
+    width:100%;
+    margin-bottom:90px;
+}
+#paperwork-holder{
+    width:1000px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#paperwork-Headline{
+    color:#640000;
+    text-align:center;
+    margin-bottom:30px;
+}
+#paperwork-Headline h1{
+    margin-bottom:15px;
+}
+#paperwork-Headline a{
+    color:grey;
+}
+#paperwork-Headline a:hover{
+    color:#640000;
+    transition: color 0.3s ease-in;
+}
+#paperwork-table1{
+    width:900px;
+    margin:0 auto;
+}
+#paperwork-table1 input{
+    width:300px;
+    padding:10px;
+    background-color: black;
+    border:1px solid white;
+    color:white;
+    margin-left:80px;
+    margin-top:20px;
+}
+#paperwork-table2{
+    width:745px;
+    margin:0 auto;
+    margin-top:30px;
+    text-align:center;
+}
+#paperwork-table2 table{
+    color:white;
+}
+#paperwork-table2 input {
+    width:300px;
+    padding:10px;
+    background-color: black;
+    border:1px solid white;
+    color:white;
+    margin-left:30px;
+    margin-top:20px;
+    text-align:center;
+}
+#paperwork-table2 select{
+    width:320px;
+    padding:10px;
+    background-color: black;
+    border:1px solid white;
+    color:white;
+    margin-left:30px;
+    margin-top:10px;
+}
+#paperwork-tos{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    margin-top:20px;
+}
+#bonusPCheck{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+    color:white;
+    margin-top:20px;
+}
+#paperwork-tos a{
+    color:#640000;
+    font-style: italic;
+}
+#paperwork-tos a:hover{
+    color:grey;
+    transition: color 0.3s ease-in;
+}
+#paperwork-submit{
+    width:200px;
+    margin:0 auto;
+    margin-top:30px;
+    text-align:center;
+}
+#paperwork-submit input{
+    color:white;
+    border:1px solid white;
+    padding:10px;
+    width:200px;
+    background-color:black;
+}
+#total-Price{
+    color:#640000;
+    width:250px;
+    margin:0 auto;
+    font-size:20px;
+    text-align:center;
+    margin-top:20px;
+}
+/*------------------------------------------------------Registration----------------------------------*/
+#reg-content{
+    width:100%;
+    margin-bottom:30px;
+}
+#reg-holder{
+    width:500px;
+    margin:0 auto;
+    text-align:center;
+    margin-top:20px;
+}
+#reg-holder h1{
+    color:#640000;
+}
+#input-holder{
+    width:302px;
+    margin:0 auto;
+    margin-top:20px;
+}
+#input-holder input{
+    width:260px;
+    padding:10px;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    margin-top:20px;
+}
+/*-------------------------------------------------Page = User ------------------------------------*/
+#user{
+    width:100%;
+    text-align:center;
+    color:white;
+}
+.img-ride-user{
+    margin-top:40px;
+    margin-left:100px;
+}
+
+.img-ride-user img{
+    width: 300px;
+    height: 220px;
+    border-radius: 50%;
+}
+#user-header h1{
+    color:grey;
+    margin-top:25px;
+    margin-bottom:35px;
+}
+.white{
+    color:white;
+}
+#user-header h2 a{
+    color:white;
+    background-color:red;
+    padding:10px;
+    font-size:20px;
+    border:1px solid red;
+}
+#user-header h2 a:hover{
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    transition: background-color 0.3s ease-in;
+}
+.holder-rent{
+    width:100%;
+    margin-top:50px;
+    border-top: 1px dotted  rgba(128, 128, 128, 0.144);
+    padding-top:30px;
+}
+.holder-rent h3{
+    font-size:35px;
+    color: grey;
+    margin-bottom:15px;
+}
+.holder-rent h4{
+    font-size:20px;
+    color:#640000;
+}
+.ride-show{
+    width:1100px;
+    margin:0 auto;
+    height:300px;
+    border-top:1px solid rgba(128, 128, 128, 0.603);
+    border-bottom:1px solid rgba(128, 128, 128, 0.603);
+    color:white;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.ride-details-h{
+    margin-top:20px;
+}
+.ride-details-h p{
+    color:#640000;
+    font-size:40px;
+    margin-right:80px;
+}
+.rent-details-user {
+    margin-right:80px;
+    font-size:20px;
+    margin-top:20px;
+}
+.rent-details-user p{
+    margin-top:10px;
+    color:grey;
+}
+.rent-details-user h5{
+    color:grey;
+    font-size:20px;
+    margin-top:8px;
+}
+.past-rent{
+    margin-top:70px;
+}
+.past-rent h3{
+    color:grey;
+    font-size:35px;
+    margin-bottom:40px;
+}
+#change-info{
+    width:630px;
+    margin:0 auto;
+    margin-top:30px;
+    padding-top:30px;
+    color:grey;
+    margin-bottom:50px;
+    border-bottom:1px dotted rgba(128, 128, 128, 0.603);
+    border-right:1px dotted rgba(128, 128, 128, 0.603);
+}
+#change-info input{
+    width:250px;
+    padding:10px;
+    background-color:black;
+    color:white;
+}
+#change-info input{
+    margin-bottom:20px;
+    margin-left:25px;
+}
+#change-info h3{
+    color:#640000;
+    font-size:30px;
+    margin-bottom:30px;
+}
+#paperwork-d h3 a{
+    padding:0px;
+    color:white;
+    background:none;
+    border:none;
+}
+#paperwork-d h3 a:hover{
+    color:red;
+    transition: color 0.3s ease-in;
+    background:none;
+    border:none;
+}
+.infoPopUp{
+    width:100%;
+    background-color:#1f1f1f;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding-top:10px;
+}
+.red{
+    color:red;
+}
+.white{
+    color:white;
+}
+#arrows{
+    width:400px;
+    margin:0 auto;
+    padding-top:15px;
+    height:150px;
+    text-align:center;
+
+}
+.active{
+    color:white;
+}
+#arrows img{
+    height:70px;
+    width:70px;
+}
+.rotated{
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-right:20px;
+}
+#tos-hol{
+    width:100%;
+    padding:20px;
+}
+#giantText{
+    color:white;
+}
+#giantText h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+#textTos{
+    text-align: justify;
+    margin-left:200px;
+}
+#textTos h2{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#640000;
+}
+#textTos ul li{
+    margin-top:10px;
+    color:grey;
+}
+#textTos ul li::before{
+    content:"- ";
+}
+#about-holder{
+    width:100%;
+}
+#about-center{
+    text-align:center;
+    width:500px;
+    margin:0 auto;
+    margin-top:10px;
+    color:white;
+}
+#about-img img{
+    width:200px;
+    margin-top:20px;
+}
+#aboutT{
+    margin-top:15px;
+    margin-bottom:30px;
+}

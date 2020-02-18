@@ -1,0 +1,335 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+body{
+    background:linear-gradient(to top, grey, black);
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+#admin{
+    width:100%;
+}
+#header{
+    width:100%;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+#header h1 a{
+    font-style:italic;
+}
+#header h1 a:hover{
+    font-style:italic;
+    color:red;
+    transition: color 0.3s ease-in;
+}
+#menu{
+    width:380px;
+    height:350px;
+    border:1px solid grey;
+    margin-left:30px;
+    position: fixed;
+    text-align:center;
+    background-image: url("Slike/tools.jpg");
+    background-position:center;
+    background-size:100% 350px;
+    background-repeat: no-repeat;
+    border-radius:100%;
+}
+#menu ul{
+    margin-top:80px;
+}
+ul li{
+    list-style-type: none;
+    margin-top:15px;
+}
+#menu ul li a{
+    font-size:20px;
+    padding:10px;
+    color:black;
+    font-weight:800;
+}
+#menu ul li a:hover{
+    color:red;
+    transition: color 0.3s ease-in;
+}
+#holder-content{
+    width:880px;
+    margin-right:50px;
+    /* background:linear-gradient(to top, black, rgb(71, 71, 71)); */
+    background-image: url("Slike/toolB.jpg");
+    background-position:fill;
+    background-repeat: no-repeat;
+    background-size:300% 300%;
+    border:1px solid grey;
+ 
+}
+#content{
+    width:880px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+/*---------------------------------------------------Active---------------------------------------------------*/
+#pending h1, #active h1{
+    text-align:center;
+    margin-bottom:15px;
+}
+#pending{
+    margin-bottom:50px;
+}
+#table-active-rents{
+    padding:10px;
+}
+.table-rentsP{
+    text-align:center;
+    border-bottom:1px solid white;
+    margin-bottom:40px;
+    padding-bottom:40px;
+}
+.table-rentsA{
+    text-align:center;
+    margin-bottom:40px;
+    padding-bottom:40px;
+}
+.table-rentsP tr td:first-child, .table-rentsA tr td:first-child{
+    padding-right:5px;
+    font-size:13px;
+    border-bottom:1px solid white;
+    padding-bottom:5px;
+}
+.table-rentsP tr td:not(:first-child), .table-rentsA tr td:not(:first-child){
+        border-left:1px solid white;
+        border-bottom:1px solid white;
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom:5px;
+        font-size:13px;
+        color:grey;
+}
+
+.data{
+    font-size:14px;
+    color:white;
+}
+/*-------------------------------------------------------Users----------------------------------------------*/
+#content-users{
+    padding-top:15px;
+}
+#users h1{
+    margin-top:15px;
+}
+#admins h1, #users h1{
+    margin-bottom:15px;
+}
+
+
+#admins, #users{
+    text-align:center;
+}
+.adminsL, .usersL{
+    text-align:center;
+    border-bottom:1px solid white;
+    margin-bottom:20px;
+    width:410px;
+    margin:0 auto;
+    padding-bottom:20px;
+}
+.adminsL{
+    width:366px;
+}
+
+.adminsL tr td:first-child, .usersL tr td:first-child{
+    padding-right:5px;
+    font-size:18px;
+    border-bottom:1px solid white;
+}
+.adminsL tr td:not(:first-child), .usersL tr td:not(:first-child){
+        border-left:1px solid white;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:18px;
+        color:grey;
+        border-bottom:1px solid white;
+}
+#add{
+    margin-bottom:30px;
+}
+#add h1{
+    text-align:center;  
+}
+#inputs{
+    width:453px;
+    margin:0 auto;
+    margin-top:20px;
+    text-align:center;
+}
+#inputs p {
+    font-size:20px;
+    margin-bottom:5px;
+}
+#inputs input{
+    padding:10px;
+    width:200px;
+    margin-bottom:15px;
+    color:black;
+}
+#submit{
+    font-weight:700;
+    font-size:20px;
+    width:150px;
+}
+/*-------------------------------------------------Past Rents------------------------------------------------*/
+#expired{
+    padding-top:15px;
+    text-align:center;
+}
+#expired h1{
+    margin-bottom:20px;
+}
+/*--------------------------------------------------Rides----------------------------------------------------*/
+#rides-holder{
+    padding-top:15px;
+}
+#rides-list{
+    width:870px;
+    margin:0 auto;
+    border-bottom:1px solid;
+    padding-bottom:20px;
+}
+#rides-list h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+.ride{
+    padding:10px;
+    width:170px;
+    text-align:center;
+}
+.ride{
+    margin-left:16px;
+    height:200px;
+}
+
+.img-ride img{
+    width:200px;
+    height:150px;
+}
+.cleaner{
+    clear:both;
+}
+.ride-name p{
+    margin-left:20px;
+}
+#add-ride h1{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+#inputs-add{
+    text-align:center;
+    width:453px;
+    margin:0 auto;
+}
+#inputs-add input{
+    width:200px;
+    color:black;
+    padding:10px;
+    margin-bottom:15px;
+}
+#pictures{
+    color:white;
+}
+#submitR{
+    font-weight:700;
+    font-size:17px;
+    margin-top:20px;
+}
+#textA{
+    color:black;
+    padding:10px;
+}
+/*-----------------------------------------------------------Udate-Ride--------------------------------------*/
+#update-ride-holder{
+    padding-top:15px;
+}
+#update-ride h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+#rideDetails{
+    text-align:center;
+
+}
+#main-pic img{
+    width: 600px;
+    height:400px;
+}
+#pictures-holder{
+    width:850px;
+    margin:0 auto;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    margin-top:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:30px;
+}
+.ride-pictureU img{
+    width:200px;
+    height:150px;
+}
+.rideU{
+    height:200px;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+.delete_link{
+    margin-top:15px;
+}
+#textU{
+    padding:10px;
+    color:black;
+}
+.delete_link a{
+    padding:10px;
+    font-size:18px;
+    background-color:red;
+    border:1px solid red;
+}
+.delete_link a:hover{
+    background-color:black;
+    border:1px solid white;
+    transition: background-color 0.3s ease-in;
+}
+#ride-update-inputs{
+    width:680px;
+    margin:0 auto;
+    margin-top:20px;
+    text-align:center;
+}
+#ride-update-inputs input{
+    width:200px;
+    padding:10px;
+    color:black;
+    margin-bottom:20px;
+}
+#submitU{
+    margin-top:15px;
+    font-size:17px;
+    font-weight:700;
+}
+.Rdm{
+    padding-right:135px;
+}
